@@ -1,1 +1,29 @@
-@import "./descripcion.css"
+@import "./navbar.css";
+@import "./wrapper.css";
+@import "./descripcion.css";
+@import "./content.css";
+
+:root{
+    --black: #000000;
+    --white: #ffff;
+    --blue: #0000ff; 
+    --navy: #05042D;
+    --crema: #F4F6F6;
+    --font: system-ui;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}   
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lime;
+    font-family: var(--font);
+}

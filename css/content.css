@@ -1,0 +1,14 @@
+.phothos-container{
+    background-color: var(--white);
+    padding: 10px;
+    margin: 50px 0;
+}
+
+.section-characters{
+    margin-bottom: 10px;
+}
+
+.grid-characters{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 285px);
+}
