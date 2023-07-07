@@ -9,6 +9,7 @@
     --blue: #0000ff; 
     --navy: #05042D;
     --crema: #F4F6F6;
+    --cremaLimon: #9BE8D8;
     --font: system-ui;
 }
 
@@ -24,6 +25,6 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-color: lime;
+    background-color: var(--cremaLimon);
     font-family: var(--font);
 }
