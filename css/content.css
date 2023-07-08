@@ -11,4 +11,12 @@
 .grid-characters{
     display: grid;
     grid-template-columns: repeat(auto-fill, 285px);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+}
+
+.photo-img{
+    border-radius: 15px;
 }

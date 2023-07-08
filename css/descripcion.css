@@ -4,9 +4,15 @@
     flex-wrap: wrap;
 }
 
+.info{
+    display: flex;
+    text-align: justify;
+}
+
 .section-title{
     display: flex;
     margin-top: 50px;
+    
 }
 
 .section-title > div {
@@ -23,6 +29,8 @@
 .title-span{
     font-size: 56px;
     margin-right: 15px;
+    background-color: blueviolet;
+
 
 }
 
@@ -36,6 +44,7 @@
     margin-left: 20px;
     display: flex;
     align-items:center;
+    
 }
 
 .descripcion_img{
@@ -71,5 +80,9 @@
     .section-paragraph{
         display: flex;
         margin: 10px;
+    }
+    .info{
+        display: contents;
+        text-align: justify;
     }
 }
