@@ -16,7 +16,7 @@
 }
 
 .section-title > div {
-    border-right: 5px solid var(--black);
+    border-right: 5px solid var(--white-1);
 
 }
 
@@ -56,6 +56,16 @@
     height: auto;
     
 }
+.section-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.paragraph{
+    display: flex;
+    align-self: flex-end;
+    color: var(--white-1);
+}
 
 
 @media (max-width: 767px){
@@ -72,7 +82,7 @@
     }
 
     .section-title > div {
-        border-bottom: 5px solid var(--black);
+        border-bottom: 5px solid var(--white-1);
         border-right: 0;
         padding: 10px;
     }
@@ -84,5 +94,10 @@
     .info{
         display: contents;
         text-align: justify;
+    }
+    .paragraph{
+        display: flex;
+        align-self: flex-end;
+        color: var(--white-1);
     }
 }
