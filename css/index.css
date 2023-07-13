@@ -2,12 +2,15 @@
 @import "./wrapper.css";
 @import "./descripcion.css";
 @import "./content.css";
+@import "./footer.css";
 
 :root{
     --black: #000000;
     --white: #ffff;
     --white-1: #F2F4F7;
-    --blue: #0000ff; 
+    --blue: #0000ff;
+    --red-1:#E43A19;
+    --red-2: #F05454;
     --navy: #05042D;
     --blue-1: #111F4D;
     --crema: #F4F6F6;

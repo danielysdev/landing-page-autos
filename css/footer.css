@@ -1,0 +1,44 @@
+.footer{
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    background-color: var(--blue-1);
+    width: 100%;
+    padding: 10px;
+}
+
+.footer-logo{
+    display: none;
+}
+.author{
+    font-size: 18px;
+    color: var(--white-1);
+}
+
+@media (min-width: 1024px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        background-color: var(--blue-1);
+        width: 100%;
+        height: 150px;
+    }
+
+    .footer-logo{
+        display: block;
+    }
+    
+    .author{
+        font-size: 14px;
+        color: var(--white-1);
+        line-height: 25px;
+    }
+   
+   
+   
+
+  
+
+}

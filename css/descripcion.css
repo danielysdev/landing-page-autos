@@ -29,13 +29,13 @@
 .title-span{
     font-size: 56px;
     margin-right: 15px;
-    background-color: blueviolet;
+    color: var(--red-2);
 
 
 }
 
 .title-span:nth-child(2) {
-    color: var(--blue);
+    color: var(--red-1);
     font-weight: bold;
     
 }
