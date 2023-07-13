@@ -13,9 +13,22 @@
 .author{
     font-size: 18px;
     color: var(--white-1);
+    padding: 5px;
 }
 
-@media (min-width: 1024px){
+.footer-author{
+   
+    padding: 5px;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (min-width: 768px){
     .footer{
         display: flex;
         justify-content: space-between;
@@ -34,8 +47,21 @@
         font-size: 14px;
         color: var(--white-1);
         line-height: 25px;
+        padding: 5px;
     }
-   
+
+    .footer-author{
+        display: inline-flex;
+        padding: 5px;
+    }
+
+    .footer-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+    }
+
    
    
 
