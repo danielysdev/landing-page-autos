@@ -5,7 +5,9 @@
 }
 
 .section-characters{
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 20px;
 }
 
 .grid-characters{
@@ -19,4 +21,8 @@
 
 .photo-img{
     border-radius: 15px;
+}
+
+.photho{
+    text-align: center;
 }
