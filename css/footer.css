@@ -27,6 +27,20 @@
     align-items: center;
     width: 100%;
 }
+.github-icon{
+    padding: 4px;
+}
+.instagram-icon{
+    padding: 4px;
+}
+.linkeding-icon{
+    padding: 4px;
+}
+.twitter-icon{
+    padding: 4px;
+}
+
+
 
 @media (min-width: 768px){
     .footer{
@@ -61,7 +75,18 @@
     align-items: center;
     width: 270px;
     }
-
+    .github-icon{
+        padding: 4px;
+    }
+    .instagram-icon{
+        padding: 4px;
+    }
+    .linkeding-icon{
+        padding: 4px;
+    }
+    .twitter-icon{
+        padding: 4px;
+    }
    
    
 
