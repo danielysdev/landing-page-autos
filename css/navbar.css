@@ -2,33 +2,69 @@
     display: flex;
     justify-content: center;
     background-color: var(--blue-1);
+    flex-direction: column;
+    height: 75px;
 }
 
 .header-menu{
-    display: flex;
+    display: flex ;
     align-items: center;
     width: 30px;
     height: 50px;
     margin-right: 10px;
     cursor: pointer;
+    /**/
+    flex-direction: row;
 }
 
 .header-logo{
     display: flex;
     align-items:center;
 }
+/*
+.header-nav{
+    position: absolute;
+    top: 60px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+*/
+
+.header-nav ul li {
+    text-decoration: none;
+    color: var(--white);
+    list-style: none;
+    height: 30px; /*con esto doy tamaño a las cajas*/
+    
+}
+/*agregue esta nueva clase*/
+.header_nav{
+    position: absolute;
+    top: 60px;
+    background-color: blueviolet;
+    display: flex;
+    width: 100%;
+    
+}
+.header_nav ul{
+    padding: 0px;
+}
     
 .header-nav ul li.nav-ul-li > a {
     text-decoration: none;
     color: var(--white);
+    padding: 0px;
+
 }
 
 
-
+/*esto es para pc*/
 @media (min-width: 768px) {
     .header{
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
         background-color: var(--blue-1);
         height: 75px;
         padding: 0 15px;
@@ -42,13 +78,25 @@
         align-items: center;
         width: 320px;
     }
+
     .header-nav ul {
         list-style: none;
         width: 320px;
         display: flex;
         justify-content: space-between;
+     
         
     }
+
+   /* cambie estilos en esta clase*/
+   .header_nav{
+    top: 0;
+    position: relative;
+    background-color: var(--blue-1);
+    display: flex;
+}
+
+
     .header-menu{
         display: none;
     }
